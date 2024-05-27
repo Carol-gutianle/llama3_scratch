@@ -1,6 +1,6 @@
 # Implement a LLaMA-3 from scratch
 
-This repository implements a single-layer version of LLaMA-3, primarily based on the repository
+This repository implements a simple version of LLaMA-3, primarily based on the repository
 at [llama-from-scratch](https://github.com/naklecha/llama3-from-scratch) and [official-repo](https://github.com/meta-llama/llama3/tree/main/llama). The key differences are:
 
 - The current repository uses python files instead of jupyter notebooks (fundamentally similar), which may provide better readability and a more streamlines experience.
