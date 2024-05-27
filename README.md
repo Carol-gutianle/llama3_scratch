@@ -1,4 +1,4 @@
-# Implement a LLaMA-3 with a single layer
+# Implement a LLaMA-3 from scratch
 
 This repository implements a single-layer version of LLaMA-3, primarily based on the repository
 at [llama-from-scratch](https://github.com/naklecha/llama3-from-scratch) and [official-repo](https://github.com/meta-llama/llama3/tree/main/llama). The key differences are:
@@ -8,8 +8,6 @@ at [llama-from-scratch](https://github.com/naklecha/llama3-from-scratch) and [of
 - The current repository provides Chinese comments to help Chinese learner.
 
 Limitations:
-
-- LLaMA-3 implemented here has only one layer, so the concept of `layer_id` is not introduced.
 
 - Our project does not use `fairscale` mentioned in the [official-repo](https://github.com/meta-llama/llama3/tree/main/llama), so any parallel strategies are not considered.
 
